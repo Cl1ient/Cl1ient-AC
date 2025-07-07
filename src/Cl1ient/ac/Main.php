@@ -18,9 +18,6 @@ class Main extends PluginBase implements Listener {
     }
 
 
-
-    // ✅ Ajout de #[EventHandler] pour que PocketMine détecte l'événement
-
     public function onJoin(PlayerJoinEvent $event): void {
         $player = $event->getPlayer();
         $message = "Bienvenue sur le serveur !";
