@@ -1,6 +1,5 @@
-﻿author: Cl1ient
-name: aliasplayer
+author: Cl1ient
+name: Cl1ientAC
 version: 0.0.1
-main: Cl1ient\ac\Main
 api: 5.30.1
-
+main: Cl1ient\Cl1ientAC
