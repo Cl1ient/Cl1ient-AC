@@ -32,10 +32,10 @@ class ReachA
         $entity = $event->getEntity();
         $damager = $event->getDamager();
         $ping = $damager->getNetworkSession()->getPing();
-        //if (!$entity instanceof Player || !$damager instanceof Player) return;
+        if (!$entity instanceof Player || !$damager instanceof Player) return;
 
 
-        //if (!$damager->isSurvival() || !$entity->isSurvival()) return;
+        if (!$damager->isSurvival() || !$entity->isSurvival()) return;
 
 
         $locEntity = $entity->getLocation();
