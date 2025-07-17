@@ -1,0 +1,20 @@
+{
+    "name": "cl1en/cl1ient-ac",
+    "authors": [
+        {
+            "name": "Cl1ient",
+            "email": "teekzie68@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "C:/libs/Math"
+        }
+    ],
+    "require": {
+        "pocketmine/math": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
