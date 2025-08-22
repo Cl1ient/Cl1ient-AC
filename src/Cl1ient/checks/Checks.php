@@ -18,9 +18,7 @@ class Checks {
 
     public function loadChecks(): void {
         $this->checks[] = new ReachA();
-        // Ajoute ici tous tes autres checks si tu veux
-
-        // Enregistre le listener global
+     
         $listener = new CheckListener($this);
         $this->plugin->getServer()->getPluginManager()->registerEvents($listener, $this->plugin);
     }
