@@ -19,7 +19,7 @@ class Cl1ientAC extends PluginBase implements Listener
     private ChatSpammer $chatSpammer;
 
     public function onEnable(): void{
-        $this->getLogger()->notice("Enabled Cl1ient AC");
+        $this->getLogger()->notice("Enabled Cl1ient AC !");
         $this->checks = new Checks($this);
         $this->checks->loadChecks();
         $this->chatSpammer = new ChatSpammer();

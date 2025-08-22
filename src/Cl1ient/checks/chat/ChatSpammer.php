@@ -20,7 +20,7 @@ class ChatSpammer {
         if (isset($this->cooldowns[$name])) {
             $timeLeft = $this->cooldowns[$name] - $currentTime;
             if ($timeLeft > 0) {
-                $player->sendMessage(TextFormat::RED . "Vous devez attendre encore " . round($timeLeft, 1) . " secondes avant d'utiliser de nouveau le chat");
+                $player->sendMessage(TextFormat::RED . "Vous devez attendre encore " . round($timeLeft, 1) . " seconde avant d'utiliser de nouveau le chat");
                 $event->cancel();
 
                 return true;
