@@ -4,6 +4,7 @@ namespace Cl1ient\checks;
 
 use Cl1ient\checks\combats\reach\ReachA;
 use Cl1ient\listener\CheckListener;
+use pocketmine\event\Event;
 use pocketmine\plugin\Plugin;
 
 class Checks {
@@ -28,4 +29,11 @@ class Checks {
     public function getChecks(): array {
         return $this->checks;
     }
+    public function checkEvent(Event $event): void {
+
+    }
+
+
+
+
 }
