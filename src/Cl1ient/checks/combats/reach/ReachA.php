@@ -2,16 +2,11 @@
 
 namespace Cl1ient\checks\combats\reach;
 
-use Cl1ient\checks\Checks;
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\Event;
-use pocketmine\event\Listener;
 use pocketmine\player\Player;
 use pocketmine\utils\TextFormat;
-use pocketmine\network\mcpe\NetworkSession;
-
 use Cl1ient\utils\Math;
-
 
 
 class ReachA
